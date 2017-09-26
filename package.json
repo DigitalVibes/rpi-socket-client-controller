@@ -1,0 +1,24 @@
+{
+  "name": "rpi-socket-client-controller",
+  "version": "1.0.0",
+  "description": "Client app running on Raspberry Pi which listens for messages to control a bulb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [
+    "IoT",
+    "sockets",
+    "Raspberry",
+    "Pi",
+    "bulb",
+    "control"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "johnny-five": "^0.11.6",
+    "raspi-io": "^8.1.0",
+    "socket.io": "^2.0.3"
+  }
+}
